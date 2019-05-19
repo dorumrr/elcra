@@ -2,15 +2,13 @@ Elcra Boilerplate
 =================
 
 ![React](https://cdn.svgporn.com/logos/react.svg)
-![Redux](https://cdn.svgporn.com/logos/redux.svg)
-
 ![material-ui](https://cdn.svgporn.com/logos/material-ui.svg)
 ![electron](https://cdn.svgporn.com/logos/electron.svg)
 
 Bundle and features
 -------------------
 
-[Electron](https://electronjs.org) + [React](https://reactjs.org) + [ReactRouter](https://reacttraining.com/react-router) + [Material UI](https://material-ui.com/) + [Redux](https://redux.js.org/) + [Electron Builder](https://www.electron.build/cli)
+[Electron](https://electronjs.org) + [React](https://reactjs.org) + [ReactRouter](https://reacttraining.com/react-router) + [Material UI](https://material-ui.com/) + [Redux](https://redux.js.org/)(wip) + [Electron Builder](https://www.electron.build/cli)
 
 - Material Design
 
@@ -48,6 +46,7 @@ The binaries will be available under the `dist` folder.
 
 Documentation
 ---------
+
 [ReactJS](https://reactjs.org/docs)
 
 [ReactRouter](https://reacttraining.com/react-router/web)
