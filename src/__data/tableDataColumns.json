@@ -1,0 +1,15 @@
+[
+  { "name": "id", "title": "ID" },
+  { "name": "uniqueId", "title": "UID" },
+  { "name": "isActive", "title": "Active" },
+  { "name": "balance", "title": "Balance" },
+  { "name": "picture", "title": "Picture" },
+  { "name": "age", "title": "Age" },
+  { "name": "fullName", "title": "Name" },
+  { "name": "gender", "title": "Gender" },
+  { "name": "company", "title": "Company" },
+  { "name": "email", "title": "Email" },
+  { "name": "phone", "title": "Phone" },
+  { "name": "about", "title": "About" },
+  { "name": "key", "title": "Key" }
+]
