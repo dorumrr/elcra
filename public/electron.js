@@ -9,8 +9,8 @@ let mainWindow;
 
 function createSplashWindow () {
   splashWindow = new BrowserWindow({
-    width: 136,
-    height: 136,
+    width: 300,
+    height: 120,
     webPreferences: {
       nodeIntegration: true,
       backgroundThrottling: false
@@ -22,13 +22,13 @@ function createSplashWindow () {
     closable: false,
     show: false
   });
-  splashWindow.loadURL(isDev ? 'http://localhost:3000/loading' : `file://${path.join(__dirname, '../build/loading.html')}`);
+  splashWindow.loadURL(isDev ? 'http://localhost:3000/loading.html' : `file://${path.join(__dirname, '../build/loading.html')}`);
   Menu.setApplicationMenu(null)
   splashWindow.once('ready-to-show', () => {
     splashWindow.show();
     setTimeout(_ => {
       createMainWindow()
-    }, 2000)
+    }, 5000)
   })
 }
 

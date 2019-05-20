@@ -27,7 +27,7 @@ const styles = {
     },
     menuButton: {
         position: 'fixed',
-        top: 290,
+        top: '46%',
         left: -35,
         paddingLeft: 33
     }

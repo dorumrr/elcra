@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core';
 import {} from '@material-ui/icons';
 
 import { Home, Reports, About } from './pages'
-import { SplashScreen, MainMenu } from './components'
+import { MainMenu } from './components'
 
 // const { ipcRenderer } = require('electron')
 
@@ -42,14 +42,12 @@ class App extends React.Component {
 
         <div className={classes.content}>
           <Switch>
-            <Route exact path="/loading" component={SplashScreen}/>
             <Route exact path="/" component={Home}/>
             <Route exact path="/reports" component={Reports}/>
             <Route exact path="/about" component={About}/>
             <Redirect to="/" />
           </Switch>
         </div>
-
 
       </div>
     );
